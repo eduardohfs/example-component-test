@@ -1,0 +1,6 @@
+local:
+  services:
+    fruit:
+      protocol: http
+      host: localhost
+      port: 1111
