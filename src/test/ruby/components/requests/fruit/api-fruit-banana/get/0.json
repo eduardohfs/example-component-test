@@ -1,0 +1,16 @@
+{
+  "status": 200,
+  "headers": {
+    "server": "nginx/1.16.1",
+    "date": "Wed, 04 May 2022 02:39:53 GMT",
+    "content-type": "application/json;charset=UTF-8",
+    "content-length": "257",
+    "connection": "close",
+    "x-content-type-options": "nosniff",
+    "x-xss-protection": "1; mode=block",
+    "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+    "pragma": "no-cache",
+    "expires": "0",
+    "x-frame-options": "DENY"
+  }
+}

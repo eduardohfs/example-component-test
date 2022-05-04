@@ -37,3 +37,11 @@ nb-configuration.xml
 
 # Local environment
 .env
+
+# Component Tests
+src/test/ruby/components/cucumber_cmd_result
+src/test/ruby/components/Gemfile.lock
+src/test/ruby/components/rerun.txt
+src/test/ruby/components/tshield.log
+src/test/ruby/components/vendor/
+src/test/ruby/components/.bundle/
