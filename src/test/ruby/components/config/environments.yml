@@ -4,3 +4,5 @@ local:
       protocol: http
       host: localhost
       port: 1111
+  tshield:
+    sessions_url: http://localhost:4567/sessions
