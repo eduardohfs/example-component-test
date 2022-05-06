@@ -1,0 +1,19 @@
+AllCops:
+  Exclude:
+    - Gemfile
+  NewCops: enable
+#  Include:
+#    - '*/**/*.feature'
+
+Layout/LineLength:
+  Max: 120
+
+Style/Documentation:
+  Enabled: false
+
+Style/GlobalVars:
+  Enabled: true
+  Exclude:
+    - features/support/env.rb
+    - features/support/helpers/tshield.rb
+    - features/support/rest_client.rb

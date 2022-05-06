@@ -10,12 +10,10 @@ class FruitFamilyPage
     send_request('get', path, request_options)
   end
 
-  def send_request(method, path, options)
+  def send_request(_method, path, options)
     @client ||= RestClient.new('fruit')
     @response = @client.get(path, options)
   end
 
-  def response
-    @response
-  end
+  attr_reader :response
 end
